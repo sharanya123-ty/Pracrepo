@@ -1,0 +1,14 @@
+To Print the numbers from 1-50
+
+#!/bin/bash
+
+
+#for i in {1..50}
+#do
+#echo $i
+#done
+
+for (( i=1; i<=50; i+=1 ))
+do
+echo $i
+done
